@@ -26,7 +26,7 @@
     ```
     atau
     ```bash
-    DATA_SOURCE_NAME="user=postgres host=/var/lib/postgres sslmode=disabled"
+    DATA_SOURCE_NAME="user=postgres host=/var/run/postgresql/ sslmode=disabled"
     ```
 
 3. Konfigurasi service exporter `postgres_exporter`
